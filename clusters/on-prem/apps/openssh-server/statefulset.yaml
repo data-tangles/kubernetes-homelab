@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: openssh-server
-        image: lscr.io/linuxserver/openssh-server:latest@sha256:7627a19c0473c090b82b862924f86f892fb2ea843ebf9fb477cc503407cef657
+        image: lscr.io/linuxserver/openssh-server:latest@sha256:f643c0c4e8fde5d9726e3ae8ab8e93a6f8547a6b41cc68d401d473019f234015
         imagePullPolicy: Always
         ports:
         - containerPort: 2222

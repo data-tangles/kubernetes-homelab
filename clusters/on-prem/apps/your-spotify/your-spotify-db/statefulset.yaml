@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: your-spotify-db
-        image: mongo:7.0.11@sha256:bd38dc3d2895c7434b9b75c86525642efe3d65e4c6aadfe397486d7cc89406f0
+        image: mongo:7.0.12@sha256:d6bd5e1840b6cddcaecc7fd05a12cb6393c2ff18179bb003d151af8fdc9db2a8
         imagePullPolicy: Always
         resources:
           limits:

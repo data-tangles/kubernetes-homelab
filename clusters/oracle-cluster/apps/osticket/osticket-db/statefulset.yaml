@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: osticket-mariadb
-        image: mariadb:lts@sha256:e59ba8783bf7bc02a4779f103bb0d8751ac0e10f9471089709608377eded7aa8
+        image: mariadb:lts@sha256:7d3fd2f513cc2a5edad3a6aed2d7154ab1503ee3c3362bb54d8cb6112959b4f2
         imagePullPolicy: Always
         ports:
         - containerPort: 3306
